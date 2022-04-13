@@ -1,0 +1,128 @@
+{
+  "id": "68c8475f-e8b2-40b7-9817-70ada22db635",
+  "version": "2.0",
+  "name": "Customer Churn Prediction",
+  "url": "http://127.0.0.1:5000/",
+  "tests": [{
+    "id": "6df10d89-34e5-4ac1-b456-6553a2dd6629",
+    "name": "Test Case 1 - Login and logout successful",
+    "commands": [{
+      "id": "ec474a03-30c7-4364-b5a8-59bf00118950",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd34a6b-0035-4a8f-9461-dd1be7563824",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d1c3473-db50-4186-b9e4-971cadbbc050",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@onclick=\"document.getElementById('id01').style.display='block'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4da8bf8f-e79c-4ab9-8f46-703cff64ad5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=username", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2c8b41-9e48-43b5-be04-e974acf5284a",
+      "comment": "",
+      "command": "type",
+      "target": "id=uname",
+      "targets": [
+        ["id=uname", "id"],
+        ["name=username", "name"],
+        ["css=#uname", "css:finder"],
+        ["xpath=//input[@id='uname']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bank"
+    }, {
+      "id": "642e6542-398d-41c9-bf84-ab5a1532867c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pwd",
+      "targets": [
+        ["id=pwd", "id"],
+        ["name=password", "name"],
+        ["css=#pwd", "css:finder"],
+        ["xpath=//input[@id='pwd']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75f77c47-b8de-448d-8f8e-b2f1e9dee348",
+      "comment": "",
+      "command": "type",
+      "target": "id=pwd",
+      "targets": [
+        ["id=pwd", "id"],
+        ["name=password", "name"],
+        ["css=#pwd", "css:finder"],
+        ["xpath=//input[@id='pwd']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "bank123"
+    }, {
+      "id": "b2905078-5fbf-4b7c-a05b-7d8948c1dc5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b2",
+      "targets": [
+        ["css=.b2", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='id01']/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca58219c-8c91-47a2-a5f5-081a75556206",
+      "comment": "",
+      "command": "click",
+      "target": "name=logoutbtn",
+      "targets": [
+        ["name=logoutbtn", "name"],
+        ["css=.b2", "css:finder"],
+        ["xpath=//button[@name='logoutbtn']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6bf2b76f-e9af-46a3-b448-7777876ea64a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5000/"],
+  "plugins": []
+}

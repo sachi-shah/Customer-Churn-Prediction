@@ -1,0 +1,5 @@
+index,RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Exited,Reason for exiting company
+0,1,23109012,Daniel,450,Spain,Male,38,1,0.0,1,1,Yes,70137.92,Yes,Long Response Times
+3,4,57833388,Arthur,728,France,Male,34,3,0.0,1,0,No,65124.8,Yes,Inexperienced Staff / Bad customer service
+6,7,24857454,Emma,710,France,Female,29,1,0.0,3,0,No,83826.63,Yes,Long Response Times
+8,9,75572910,James,703,France,Male,39,1,20455.3,1,0,No,66125.8,Yes,Long Response Times

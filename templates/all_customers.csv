@@ -1,0 +1,10 @@
+index,RowNumber,CustomerId,Surname,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Exited,Reason for exiting company
+0,1,23109012,Daniel,450,Spain,Male,38,1,0.0,1,1,1,70137.92,Yes,
+1,2,34749931,John,620,Germany,Male,22,2,0.0,2,1,0,98672.9,No,
+2,3,19812322,Sofia,511,Spain,Female,27,3,14010.01,3,0,1,87132.2,No,
+3,4,57833388,Arthur,728,France,Male,34,3,0.0,1,0,0,65124.8,Yes,
+4,5,90121312,Jenny,661,France,Female,33,6,0.0,2,0,1,39922.7,No,
+5,6,35619304,Alice,502,France,Female,49,7,12966.82,3,1,0,103031.57,No,
+6,7,24857454,Emma,710,France,Female,29,1,0.0,3,0,0,83826.63,Yes,
+7,8,75572918,Paul,482,Spain,Male,42,2,10681.53,1,1,0,128643.35,No,
+8,9,75572910,James,703,France,Male,39,1,20455.3,1,0,0,66125.8,Yes,
